@@ -1,4 +1,4 @@
-# Waagh Ghashstabba — Horus Heresy Orks — Revision 1
+# Waagh Ghashstabba — Horus Heresy Orks — Revision 3
 
 A combined BattleScribe catalogue for Horus Heresy 1.0 / 7th-edition-era play. It integrates three Ork layers into one Great Crusade Standard-style force organisation:
 
@@ -31,3 +31,9 @@ Validation performed: XML well-formedness, duplicate-ID scan, exposed-entry/cate
 - Added rule/profile output for Ghashstabba character armoury upgrades, including Shovel Shield, Stasis Grenade, Cybork Body, Red Eye, Sparky Bitz and Heavy Ramshackle Armour.
 - Mega-Gargant now explicitly displays WS4, S D, I1 and A5 alongside its vehicle armour/HP profile.
 - Audited selectable weapon keyword rules across the catalogue.
+
+
+## Revision/update protocol
+Revision 3 repairs repository update detection. The catalogue `revision` and both index copies' `dataRevision` are now advanced together.
+
+For every future release: (1) increase the catalogue `revision`; (2) set the same value in `index.xml` `dataRevision`; (3) rebuild `index.bsi` from that updated `index.xml`; (4) keep the catalogue `dataId` and filename stable; (5) upload/replace the `.catz`, `index.xml`, and `index.bsi` together. This allows an existing BattleScribe repository URL to discover new revisions without being re-added.
