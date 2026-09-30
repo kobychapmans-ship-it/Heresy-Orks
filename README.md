@@ -37,3 +37,10 @@ Validation performed: XML well-formedness, duplicate-ID scan, exposed-entry/cate
 Revision 3 repairs repository update detection. The catalogue `revision` and both index copies' `dataRevision` are now advanced together.
 
 For every future release: (1) increase the catalogue `revision`; (2) set the same value in `index.xml` `dataRevision`; (3) rebuild `index.bsi` from that updated `index.xml`; (4) keep the catalogue `dataId` and filename stable; (5) upload/replace the `.catz`, `index.xml`, and `index.bsi` together. This allows an existing BattleScribe repository URL to discover new revisions without being re-added.
+
+
+## v4 archive-format repair
+- Rebuilt `index.bsi` as a standard ZIP archive containing exactly one `index.xml`.
+- Rebuilt the `.catz` as a standard ZIP archive containing exactly one `.cat`; the prior v3 `.catz` was incorrectly GZIP-compressed.
+- Advanced catalogue and data-index revision to 4 while retaining the stable catalogue ID and filename for future updates.
+- Future releases must use ZIP for both `.bsi` and `.catz`, never GZIP.
