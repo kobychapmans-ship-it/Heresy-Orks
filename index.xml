@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<dataIndex xmlns="http://www.battlescribe.net/schema/dataIndexSchema" battleScribeVersion="2.03" name="Waagh Ghashstabba — Horus Heresy Orks Repository">
-  <dataIndexEntries>
-    <dataIndexEntry filePath="Waagh_Ghashstabba_Orks_HH1.catz" dataType="catalogue" dataId="7b9e3d0c-1f42-5b7e-9e61-0b2c5fd49a01" dataName="(HH V1) Waagh Ghashstabba - Orks (Fanmade)" dataBattleScribeVersion="2.03" dataRevision="1"/>
-  </dataIndexEntries>
-</dataIndex>
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:dataIndex xmlns:ns0="http://www.battlescribe.net/schema/dataIndexSchema" battleScribeVersion="2.03" name="Waagh Ghashstabba — Horus Heresy Orks Repository">
+  <ns0:dataIndexEntries>
+    <ns0:dataIndexEntry filePath="Waagh_Ghashstabba_Orks_HH1.catz" dataType="catalogue" dataId="7b9e3d0c-1f42-5b7e-9e61-0b2c5fd49a01" dataName="(HH V1) Waagh Ghashstabba - Orks (Fanmade)" dataBattleScribeVersion="2.03" dataRevision="1" />
+  </ns0:dataIndexEntries>
+</ns0:dataIndex>

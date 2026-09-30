@@ -24,3 +24,10 @@ The Mega-Gargant is 2,000 points before upgrades, AV15/15/13, 42 HP, Transport 1
 The catalogue uses the supplied Xenos of the Great Crusade file as its Horus Heresy schema/base and the supplied Waagh Ghashstabba document for the custom material. The Lesser-Ork layer is adapted from the archived BSData 7th-edition Orks catalogue rather than importing the 7e detachment bonuses.
 
 Validation performed: XML well-formedness, duplicate-ID scan, exposed-entry/category target checks, archive integrity and repository-index consistency. Native BattleScribe/iOS rendering is not available in this environment, so this revision should be treated as the first field-test build.
+
+
+## v2 audit fixes
+- Linked selectable weapon special rules to roster output (including Spear Launcha: Monster Hunter and Gotcha).
+- Added rule/profile output for Ghashstabba character armoury upgrades, including Shovel Shield, Stasis Grenade, Cybork Body, Red Eye, Sparky Bitz and Heavy Ramshackle Armour.
+- Mega-Gargant now explicitly displays WS4, S D, I1 and A5 alongside its vehicle armour/HP profile.
+- Audited selectable weapon keyword rules across the catalogue.
