@@ -44,3 +44,13 @@ For every future release: (1) increase the catalogue `revision`; (2) set the sam
 - Rebuilt the `.catz` as a standard ZIP archive containing exactly one `.cat`; the prior v3 `.catz` was incorrectly GZIP-compressed.
 - Advanced catalogue and data-index revision to 4 while retaining the stable catalogue ID and filename for future updates.
 - Future releases must use ZIP for both `.bsi` and `.catz`, never GZIP.
+
+
+## v5 statline and rule-output repair
+- Additional models such as Big Ounda Squig now have proper Unit profiles. Big Ounda Squig displays WS4 BS0 S5 T5 W3 I3 A D6+2 Ld6 Sv5+ plus Ghashing Bite and Big Ead weapon profiles.
+- Heavy Ramshackle Armour now outputs a full owning-model statline with Save 3+.
+- Attack Squig now outputs the owning model with +1 Attack.
+- Red Eye outputs a clearly labelled stationary-turn alternate statline with +1 BS and its Ignores Cover rule text.
+- Equipment rules are embedded directly in the selected equipment entry rather than relying only on infoLinks.
+- Weapon special rules are embedded directly beneath the selected weapon. Any weapon Type keyword matching a catalogue shared rule now receives that rule as a direct rule object, including Monster Hunter and Gotcha on Spear Launcha.
+- Catalogue and both repository indexes advanced together to revision 5.
